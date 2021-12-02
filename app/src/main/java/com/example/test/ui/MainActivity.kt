@@ -1,7 +1,9 @@
-package com.example.test
+package com.example.test.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.test.util.OnNotificationReceivedListener
+import com.example.test.R
 
 class MainActivity : AppCompatActivity(),
     OnNotificationReceivedListener {

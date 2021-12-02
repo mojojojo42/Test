@@ -1,4 +1,4 @@
-package com.example.test
+package com.example.test.ui
 
 import android.content.Context
 import android.os.Bundle
@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import com.example.test.util.OnNotificationReceivedListener
+import com.example.test.R
 
 class FragmentA : Fragment() {
 
